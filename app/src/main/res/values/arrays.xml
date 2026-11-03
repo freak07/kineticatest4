@@ -167,6 +167,16 @@
         <item>one_handed_left</item>
     </string-array>
 
+    <string-array name="swipe_look_entries">
+        <item>Trail</item>
+        <item>Keys light up</item>
+        <item>Both</item>
+    </string-array>
+    <string-array name="swipe_look_values" translatable="false">
+        <item>trail</item>
+        <item>keys</item>
+        <item>both</item>
+    </string-array>
     <string-array name="trail_color_entries">
         <item>Rainbow</item>
         <item>Red</item>
@@ -174,7 +184,7 @@
         <item>Green</item>
         <item>Cyan</item>
         <item>Violet</item>
-        <item>Custom hue</item>
+        <item>Custom colour</item>
         <item>Theme colour</item>
     </string-array>
     <string-array name="trail_color_values" translatable="false">
@@ -297,6 +307,17 @@
         <item>aggressive</item>
     </string-array>
 
+    <string-array name="language_mode_entries">
+        <item>One language at a time</item>
+        <item>Mix enabled languages (experimental)</item>
+        <item>Follow the language I type (experimental)</item>
+    </string-array>
+    <string-array name="language_mode_values" translatable="false">
+        <item>one</item>
+        <item>mix</item>
+        <item>follow</item>
+    </string-array>
+
     <string-array name="language_entries">
         <item>English</item>
         <item>Italiano</item>
@@ -307,6 +328,7 @@
         <item>Deutsch</item>
         <item>Français</item>
         <item>Norsk</item>
+        <item>Română</item>
         <item>Русский (experimental)</item>
         <item>Українська (experimental)</item>
         <item>עברית (experimental)</item>
@@ -322,6 +344,7 @@
         <item>de</item>
         <item>fr</item>
         <item>no</item>
+        <item>ro</item>
         <item>ru</item>
         <item>uk</item>
         <item>he</item>
@@ -338,6 +361,7 @@
         <item>de</item>
         <item>fr</item>
         <item>no</item>
+        <item>ro</item>
     </string-array>
 
 

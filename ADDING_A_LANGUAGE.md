@@ -12,7 +12,7 @@ capitalized display form on a lowercase key (German nouns do). A Latin-script
 language is data plus registration, as below. Another script needs its own
 alphabet too; see "Another script" at the end.
 
-Thirteen languages ship: en, it, es, pl, cs, nl, de, fr, no, plus Russian,
+Fourteen languages ship: en, it, es, pl, cs, nl, de, fr, no, ro, plus Russian,
 Ukrainian, Hebrew and Arabic as experimental. Spanish is the smallest complete
 example; German is the one with extra machinery.
 
@@ -185,9 +185,9 @@ away and back preserves learned words.
 
 ## Known multi-language limitations (documented, not blockers)
 
-- Mix enabled languages pairs the active language with the first enabled
-  other language of the same alphabet (`KineticaIME` builds one
-  `secondaryPredictor`); Follow the language I type takes up to three.
+- Mix pairs the active language with the first enabled other language of
+  the same alphabet (`KineticaIME` builds one `secondaryPredictor`); Follow
+  the language I type takes up to three.
 - Enabled-languages cycle order is the canonical `ALL_LANGUAGES` order, not
   user-orderable.
 - A language whose own alphabet letters fold onto other letters that are

@@ -22,6 +22,9 @@ Typing SOMETHING:
 ## Video
 
 https://github.com/user-attachments/assets/7bfdabe4-c265-4b40-8db1-c9eb0d9b14d7
+## Themes
+<img width="3978" height="1630" alt="Themes" src="https://github.com/user-attachments/assets/2f3935ab-51e2-45b7-befe-e52cf2b9b96a" />
+
 
 ## Install
 
@@ -113,7 +116,7 @@ channel can install and update over the other.
 - Chords: hold `?123` or the spacebar and tap a key. Each chord picks its trigger, so `?123`+`l` and
   space+`l` are two chords. Defaults: `?123`+`l` switches language, `?123`+`p` toggles peck-type;
   both can be removed. Hold the trigger still and each key shows its chord (Shortcuts and gestures,
-  on).
+  on); a small drift keeps them showing.
 - Edge swipes: swipe off any key in any direction. Defaults: backspace up `!`, enter up `?`, and
   shift up, right and down for the word's case.
 - Text expansions: a short trigger becomes longer text, fired by the Expand action. A trigger can
@@ -139,28 +142,34 @@ channel can install and update over the other.
 - Layout modes: full width, right, left, split, one-handed on either side. Landscape has its own
   height and can be split to the edges, centred or full width. An unfolded phone or a tablet held
   upright uses the landscape arrangement (Size and layout, on).
+- Landscape keeps its own margins, middle row width, handle, bar height and text sizes, in its own
+  group of Size and layout.
 - Height by dragging the handle above the bar, side and bottom margins, a live size preview.
 - An optional apostrophe key right of `L`, for `don't` or `nell'immagine` without the symbols page.
 - Two symbol pages and a numpad; a configurable comma and period key; an emoji picker on the
   comma's long-press, with a frequently used tab.
+- The symbol pages can be rewritten as text, a line per row (Keys > Symbol pages).
 - Words per minute on the spacebar while you type (Keys, off).
-- Themes: dark, light, Material You, or a palette from one colour of your choice. Zen mode turns
-  animations off.
-- Swipe trail in one colour, a hue of your own, the theme's colour, or rainbow (Look and feel).
+- Themes: dark, light, Material You, or a palette from one colour you type as `#RRGGBB`. Zen
+  mode turns animations off.
+- Key borders, on or off, in the theme's colour and a width of your choice.
+- A background image under the keyboard, fitted separately for portrait and landscape, with its
+  own opacity and the keys' (Look and feel).
+- A swipe shows as a trail, as the keys it crosses lighting up, or both; in one colour, a colour
+  you type, the theme's colour, or rainbow (Look and feel).
 
 ### Languages
 
-- English, Italian, Spanish, Polish, Czech, Dutch, German, French and Norwegian; Russian, Ukrainian,
-  Hebrew and Arabic are experimental, each with its own board. 46k to 50k words per language with
+- English, Italian, Spanish, Polish, Czech, Dutch, German, French, Norwegian and Romanian;
+  Russian, Ukrainian, Hebrew and Arabic are experimental, each with its own board. 46k to 50k words per language with
   real corpus frequencies, and up to 100k word pairs.
 - Switch with a chord without leaving the field; the active language shows on the spacebar.
 - Accented words are drawn on their base keys and come out with their accents. A spelling with the
   accents left off is offered only where written text uses it: `pojsc` corrects to `pójść`, while
   `ze` and `że` both stay.
-- Mix enabled languages: the active language and the next enabled one in one list (Languages > More
-  language options, off).
-- Follow the language I type: up to three languages as equals, the one you are typing weighs most
-  (same screen, off, experimental).
+- Languages in suggestions (Languages): one at a time (the default); mix,
+  the active language and the next enabled one in one list; or follow the language I type, up to
+  three as equals, the one you are typing weighs most (experimental).
 - British spelling for English.
 - A language is data plus registration, so new ones can be contributed:
   [ADDING_A_LANGUAGE.md](ADDING_A_LANGUAGE.md).
@@ -322,7 +331,7 @@ MotionEvent
 
 Regenerate a language's dictionary with
 `python3 tools/generate_assets.py --lang <code>` (`--dry-run` to preview); the codes are
-en, it, es, pl, cs, nl, de, fr, no, ru, uk, he and ar.
+en, it, es, pl, cs, nl, de, fr, no, ro, ru, uk, he and ar.
 
 - Word frequencies: [hermitdave/FrequencyWords](https://github.com/hermitdave/FrequencyWords)
   (OpenSubtitles 2018), MIT. The 50k list per language; Ukrainian from the full list.
