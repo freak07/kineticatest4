@@ -15,7 +15,7 @@ object EmojiRecents {
      * Three rows of EmojiPickerView.COLUMNS: enough to be worth opening, few enough that the
      * panel never scrolls.
      */
-    const val MAX = 24
+    const val MAX = 40
 
     /** One emoji's usage, free of Room and of Android. */
     data class Use(val emoji: String, val count: Int, val updatedAt: Long)
